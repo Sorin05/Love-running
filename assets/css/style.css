@@ -21,10 +21,9 @@ h1, h2 {
        color:#252525;
     }
 #logo{
-          float: left;
-          font-size: 150px;
-          margin-left: 30px;
-      
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
 
 }
 /* navigation links */
@@ -35,8 +34,8 @@ h1, h2 {
 }
 
 #menu, #logo {
-
-      line-height: 250px;  
+/* far too big changed to fit screen */
+    line-height: 75px;
     }
 #menu li {
      float: right;
@@ -92,7 +91,8 @@ h1, h2 {
  /*creates the level of zoom for hero image*/
  @keyframes hero-zoom {
                from{
-                   transform: scale(1.1);
+                   /* changed to scale of 1 for zoom */
+                   transform: scale(1);
 
                }
                to{ 
@@ -150,7 +150,7 @@ h1, h2 {
             hr { 
                 border-top: 1px solid #3a3a3a ;
                 width: 100%;
-                margin: 5px 0;
+                margin: 5px;
                    
             }
 
@@ -185,14 +185,14 @@ h1, h2 {
 
            #welcome {
                text-align: center;
-               margin: 20px o;
+               margin: 30px o;
                font-size: 280%;
            }
 
            #circle-container {
                width: 300px;
                height: 300px;
-               padding: 300px; 
+               padding: 30px; 
                border-style: solid;
                border-color: #ccc;
                border-width: 1px;
@@ -215,7 +215,7 @@ h1, h2 {
                background-repeat: no repeat;
                background-size: cover;
                background-position: center;
-               width: 100%;
+               /* width: 100%; */
                overflow: hidden;
 
            }
@@ -231,6 +231,7 @@ h1, h2 {
                text-align: center;
                border: 2px solid white;
                box-sizing: border-box;
+               width: 20%
            }
              
 
@@ -239,6 +240,8 @@ h1, h2 {
 
 
 }
+
+
 
 footer { 
 
